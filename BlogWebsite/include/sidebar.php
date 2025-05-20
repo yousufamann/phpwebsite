@@ -31,6 +31,10 @@
                 <i class="fas fa-globe"></i>
                 <span>Website</span>
             </a>
+              <a href="user.php" class="menu-item">
+                <i class="fas fa-user"></i>
+                <span>Users</span>
+            </a>
             <p class="menu-title">User</p>
             <a href="feedback.php" class="menu-item">
                 <i class="fas fa-comment-dots"></i>

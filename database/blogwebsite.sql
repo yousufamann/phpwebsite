@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 19, 2025 at 03:21 PM
+-- Generation Time: May 20, 2025 at 10:43 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -211,8 +211,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `image`, `role`, `status`) VALUES
-(51, 'Aman', 'Yousuf@gmail.com', '111', NULL, 'User', 'InActive'),
-(52, 'Fareed', 'Fareed@gmail.com', '111', 'download.jpg', 'Admin', 'Active');
+(51, 'Yousuf', 'Yousuf@gmail.com', '111', '521fabaf-489d-4d10-978c-cff4b37d36a8_bf1dc6a5-28ae-47c5-aae4-effdd4d4d605_download.jpg', 'User', 'Active'),
+(52, 'Fareed', 'Fareed@gmail.com', '111', 'download.jpg', 'Admin', 'InActive');
 
 --
 -- Indexes for dumped tables

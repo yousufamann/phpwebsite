@@ -38,6 +38,10 @@
                 <i class="fas fa-comment nav-icon"></i>
                 <span class="nav-text">Comment</span>
             </a>
+             <a href="../apicenter/apiuser.php" class="nav-item">
+                <i class="fas fa-user nav-icon"></i>
+                <span class="nav-text">Users</span>
+            </a>
         </div>
     </div>
 
@@ -47,3 +51,38 @@
             <h1 class="page-title">
                 <i class="fas fa-cloud"></i> Welcome To BlueSky ApiCenter
             </h1>
+ <style>
+  .api-section summary {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 8px 12px;
+    background-color: #e6f2ff;
+    border-radius: 6px;
+    display: inline-block;
+    color: #004080;
+    transition: background-color 0.3s;
+  }
+
+  .api-section[open] summary {
+    background-color: #cce5ff;
+  }
+
+  .api-section p {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #007BFF;
+    border-radius: 5px;
+    color: #333;
+    max-width: 600px;
+  }
+</style>
+
+<details class="api-section">
+  <summary>📘 Bluesky API Center</summary>
+  <p>
+    Welcome to <strong>Bluesky</strong> — a modern and user-friendly platform where you can view posts, manage categories, connect with users, and explore comments. Our clean and powerful APIs make data integration seamless for developers.<br>
+    Whether you're browsing or building, Bluesky gives you the tools to innovate and grow.
+  </p>
+</details>

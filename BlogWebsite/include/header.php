@@ -64,7 +64,11 @@ if (!isset($_SESSION['id'])) {
                                             <div class="user-info">
                                                 <div class="name"><?php echo $_SESSION['name']; ?></div>
                                                 <div class="email"><?php echo $_SESSION['email']; ?></div>
-                                                <?php if (isset($_SESSION['status']) && $_SESSION['status'] == 'Active') { ?>
+                                                <?php 
+                                               
+                                                
+                                                if (isset($row['status']) && $row['status'] == 'Active') { 
+                                                ?>
                                                     <div style="color: #4CAF50; font-size: 13px; display: flex; align-items: center; margin-top: 5px;">
                                                         <span style="display: inline-block; width: 8px; height: 8px; background-color: #4CAF50; border-radius: 50%; margin-right: 6px; animation: pulse 1.5s infinite;"></span>
                                                         Online
